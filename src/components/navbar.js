@@ -24,16 +24,23 @@ const Navbar = ({ siteTitle }) => {
           <ul className="navbar-nav me-auto mb-2 mb-md-0">
             <li className="nav-item">
               <ExactNavLink
-                to="/"
+                to="/members"
               >
-                Home
+                สมาชิก
+              </ExactNavLink>
+            </li>
+            <li className="nav-item">
+              <ExactNavLink
+                to="/class"
+              >
+                วิชาเรียน
               </ExactNavLink>
             </li>
             <li className="nav-item">
               <ExactNavLink
                 to="/about"
               >
-                About
+                เกี่ยวกับเรา
               </ExactNavLink>
             </li>
           </ul>
